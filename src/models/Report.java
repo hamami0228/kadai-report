@@ -31,7 +31,7 @@ public class Report {
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-        private Integer id;
+    private Integer id;
 
     @ManyToOne
     @JoinColumn(name = "employee_id", nullable = false)
